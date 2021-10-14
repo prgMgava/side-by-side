@@ -24,10 +24,10 @@ A Api de mapas do google que utilizamos ajuda o usuário a encontrar estes ponto
 ## Ferramentas e libs
 
 Principais libs e ferramentas utilizadas no projeto:
-_[react-router-dom](https://www.npmjs.com/package/react-router-dom) para as rotas das páginas;
-_[yup](https://www.npmjs.com/package/yup), [react-hook-form](https://react-hook-form.com/) para os formularios
-_[Chakra](https://chakra-ui.com/) para estilização
-_ jwt, e outras
+*[react-router-dom](https://www.npmjs.com/package/react-router-dom) para as rotas das páginas;
+*[yup](https://www.npmjs.com/package/yup), [react-hook-form](https://react-hook-form.com/) para os formularios
+*[Chakra](https://chakra-ui.com/) para estilização
+*jwt, e outras
 
 ### TypeScript
 
