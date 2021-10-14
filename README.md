@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# SIDE BY SIDE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Side by Side é uma aplicação feita em ReactJs, para fins de obtenção de nota, e muitos, muitos aprendizados no curso de Desenvolvedor Front-End - Kenzie Academy Brasil.
 
-## Available Scripts
+## Colaboradores
 
-In the project directory, you can run:
+Trabalho foi desenvolvido em grupo: Victor Martins, Ayana Mello, Gabriel Bueno, Lucas Rozado, e eu, desenvolvemos juntos desda o cerne da ideia até os grandes momentos finais de revisão e correção do código.
 
-### `yarn start`
+## Server
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para usar um [server](https://github.com/prgMgava/json-server-syde-by-syde) utilizamos a lib json-server e deploy no Heroku. - créditos a Victor Martins
+As rotas usadas serviram para login e signup e cadastro de dados dos pontos de coleta e eventos, falarei mais sobre estes.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Sobre a aplicação
 
-### `yarn test`
+Side By Side é uma ferramenta que contribui com o meio ambiente atraves da limpeza de locais específicos próximos a você e também ajuda a encontrar locais adequados para o usuário descartar o seu lixo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A equipe decidiu que envolver a comunidade neste tipo de evento , seria algo com inúmeros benefícios. Assim o usuário pode criar ou participar de eventos onde outros usuários se comprometeriam a realizar trabalhos de limpeza de uma para, lote por exemplo. Existe também uma "gameficação" como uma pequena forma de incentivar ainda mais o usuário, onde a cada evento ou ponto de coleta criado o usuário acula pontos e ganha insignias
 
-### `yarn build`
+## API Google Maps
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A Api de mapas do google que utilizamos ajuda o usuário a encontrar estes pontos que ficam registrados no mapa, e além de ser bem amigável este tipo de implementação.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Ferramentas e libs
 
-### `yarn eject`
+Principais libs e ferramentas utilizadas no projeto:
+	- [react-router-dom](https://www.npmjs.com/package/react-router-dom) para as rotas das páginas;
+	- [yup](https://www.npmjs.com/package/yup), [react-hook-form](https://react-hook-form.com/) para os formularios
+	- [Chakra](https://chakra-ui.com/) para estilização
+	- jwt, e outras
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### TypeScript
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Vale ressaltar que a decisão da equipe em também utilizar o TypeScript para uma tipagem mais "forte", assim suprimindo uma "carência" que o JavaScript sozinho não é muito eficaz, foi um grande desafio.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Confira em [Syde By Side](https://sidebyside.vercel.app/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Há um vídeo legal tbm no meu [Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6848619692995698689/), confere lá :)
