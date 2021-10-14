@@ -13,7 +13,7 @@ As rotas usadas serviram para login e signup e cadastro de dados dos pontos de c
 
 ## Sobre a aplicação
 
-Side By Side é uma ferramenta que contribui com o meio ambiente atraves da limpeza de locais específicos próximos a você e também ajuda a encontrar locais adequados para o usuário descartar o seu lixo.
+**Side By Side** é uma ferramenta que contribui com o meio ambiente atraves da limpeza de locais específicos próximos a você e também ajuda a encontrar locais adequados para o usuário descartar o seu lixo.
 
 A equipe decidiu que envolver a comunidade neste tipo de evento , seria algo com inúmeros benefícios. Assim o usuário pode criar ou participar de eventos onde outros usuários se comprometeriam a realizar trabalhos de limpeza de uma para, lote por exemplo. Existe também uma "gameficação" como uma pequena forma de incentivar ainda mais o usuário, onde a cada evento ou ponto de coleta criado o usuário acula pontos e ganha insignias
 
@@ -24,10 +24,10 @@ A Api de mapas do google que utilizamos ajuda o usuário a encontrar estes ponto
 ## Ferramentas e libs
 
 Principais libs e ferramentas utilizadas no projeto:
-*[react-router-dom](https://www.npmjs.com/package/react-router-dom) para as rotas das páginas;
-*[yup](https://www.npmjs.com/package/yup), [react-hook-form](https://react-hook-form.com/) para os formularios
-*[Chakra](https://chakra-ui.com/) para estilização
-*jwt, e outras
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom) para as rotas das páginas;
+* [yup](https://www.npmjs.com/package/yup), [react-hook-form](https://react-hook-form.com/) para os formularios
+* [Chakra](https://chakra-ui.com/) para estilização
+* jwt, e outras
 
 ### TypeScript
 
