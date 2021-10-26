@@ -61,14 +61,6 @@ export const FirstAccessForm = () => {
     onToggle();
   };
 
-  // useEffect(() => {
-  //   if (!user.location) {
-  //     setIsOpen(true);
-  //   } else {
-  //     setIsOpen(false);
-  //   }
-  // }, [user]);
-
   return (
     <>
       {openFirstAccessForm && (

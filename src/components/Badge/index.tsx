@@ -16,17 +16,15 @@ export const Badge = ({ badgeKey, badgeValue: achieved }: IBadgeProps) => {
       <Flex
         flexDirection="column"
         w={["30%", "30%", "25%", "20%", "15%"]}
-        mb={{ base: "30px"}}
+        mb={{ base: "30px" }}
         alignItems="center"
       >
         <Text fontSize="0.8rem" fontWeight="bold">
           {badgeData.title}
         </Text>
         <Image
-          w={achieved ? "auto" : { base: "55px", lg: "70px"}}
-          h={{base: "60px", lg: "65px"}}
-          // bgColor={achieved ? 'transparent' : "gray.100"}
-          // borderRadius={achieved ? 'initial' : "full"}
+          w={achieved ? "auto" : { base: "55px", lg: "70px" }}
+          h={{ base: "60px", lg: "65px" }}
           src={achieved ? badgeData.img : badgeDataGray.img}
         />
       </Flex>

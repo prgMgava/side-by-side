@@ -47,17 +47,12 @@ export const NearEventDetails = ({ marker }: EventDetailsProps) => {
     onClose: onErrorClose,
     onOpen: onErrorOpen,
   } = useDisclosure();
-  // const { markerUpdated, updateEvent } = useMarkers();
 
   useEffect(() => {
     getUser(id, accessToken);
-    // if (marker.id) {
-    //   updateEvent(marker.id, accessToken);
-    // }
   }, []);
 
   const handleSubmit = () => {
-    //updates event participants and user events
     if (marker.participants !== undefined) {
       setIsLoading.on();
       const { email, image_url, name, id: idUser, my_events } = userData;
@@ -97,7 +92,7 @@ export const NearEventDetails = ({ marker }: EventDetailsProps) => {
         start_time: start_time,
         title: title,
         id: eventId,
-        particiants: participants,
+        participants: participants,
       };
 
       const eventData = [eventFilteredData, ...my_events];
@@ -161,9 +156,6 @@ export const NearEventDetails = ({ marker }: EventDetailsProps) => {
   const handleClick = () => {
     onSuccessClose();
     onClose();
-    // if (marker.id) {
-    //   updateEvent(marker.id, accessToken);
-    // }
   };
 
   return (

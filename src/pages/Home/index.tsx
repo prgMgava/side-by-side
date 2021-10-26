@@ -101,7 +101,7 @@ const Home = () => {
           <Flex justifyContent="center" direction="column">
             <Text fontSize="3xl">Find collection points</Text>
             <Text maxW="300px">
-              Search for the precise places to disposal each of your espicific
+              Search for the precise places to disposal each of your specific
               wastes.
             </Text>
           </Flex>
@@ -189,7 +189,7 @@ const Home = () => {
           bg="white"
           textAlign="center"
         >
-          &copy;Copyright 2021 Echologys Brasil SA. All rights reserved
+          &copy;Copyright 2021 Euchology Brasil SA. All rights reserved
         </Center>
       </Flex>
     </Flex>

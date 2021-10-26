@@ -66,7 +66,6 @@ export const UserInfo = () => {
             fontSize="12px"
             textAlign={["center", "center", "left", "left"]}
           >
-            {/* TODO */}
             <Icon as={FaMapMarkerAlt} /> {user.location?.country},{" "}
             {user.location?.city} - {user.location?.state}
           </Text>

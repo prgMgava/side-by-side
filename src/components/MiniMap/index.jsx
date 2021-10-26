@@ -6,7 +6,6 @@ import { useMarkers } from "../../providers/MarkersContext";
 import mapStyles from "../../pages/Map/mapStyles";
 import { ButtonForms } from "../ButtonForms";
 import { useHistory } from "react-router";
-//consts to avoid re-renders
 const libraries = ["places"];
 
 const mapContainerStyle = {

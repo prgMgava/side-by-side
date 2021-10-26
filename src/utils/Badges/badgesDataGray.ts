@@ -50,7 +50,7 @@ export const allBadgesGray: IAllBadges = {
         img: third,
     },
     fourth: {
-        title: 'Care for the envirement',
+        title: 'Care for the environment',
         txt: 'Join your eighth event!',
         img: fourth,
     },
@@ -60,7 +60,7 @@ export const allBadgesGray: IAllBadges = {
         img: fifth,
     },
     sixth: {
-        title: 'Capitain Planet',
+        title: 'Captain Planet',
         txt: 'Join your fiftieth event!',
         img: sixth,
     },

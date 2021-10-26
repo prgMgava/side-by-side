@@ -74,11 +74,8 @@ export const EventsList = () => {
             (event) => haversine(userLat, userLng, event.lat, event.lng) < 100 //events under 100km
           ).length === 0 ? (
             <Box
-              // backgroundImage={ImageSuccess}
               w="224px"
               h="328px"
-              // backgroundRepeat="no-repeat"
-              // backgroundPosition=" center 32px"
               backgroundColor="gray.50"
             >
               <Image

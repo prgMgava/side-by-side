@@ -46,7 +46,7 @@ export const Info = () => {
           textTransform="uppercase"
           fontSize="2xl"
         >
-          Informations
+          Information
         </Heading>
         <Accordion w={{ base: "90vw", lg: "85%" }} allowToggle>
           {infos.map(({ title, content }, index) => (

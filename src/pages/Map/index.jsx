@@ -20,25 +20,21 @@ import { useLocation } from "../../providers/LocationContext";
 import { ButtonForms } from "../../components/ButtonForms";
 import { useEventDetails } from "../../providers/EventDetailsContext";
 
-//consts to avoid re-renders
 const libraries = ["places"];
 
 const mapContainerStyle = {
   width: "100vw",
   height: "100vh",
 };
-// const center = {
-//   lat: -25.42836,
-//   lng: -49.27325,
-// };
+
 const options = {
   styles: mapStyles,
   disableDefaultUI: true,
   zoomControl: true,
   zoomControlOptions: {
     position: 3,
-  }
-}
+  },
+};
 
 export const Map = () => {
   const { isLoaded, loadError } = useLoadScript({
@@ -106,7 +102,7 @@ export const Map = () => {
         <BottomMenu />
         <DashboardMenu />
         <Locate panTo={panTo} />
-        {markers.map((marker,index) => (
+        {markers.map((marker, index) => (
           <Marker
             key={index}
             position={{ lat: marker.lat, lng: marker.lng }}
@@ -170,7 +166,6 @@ export const Map = () => {
                 </>
               ) : null}
             </Box>
-
           </InfoWindow>
         ) : null}
 
@@ -179,7 +174,7 @@ export const Map = () => {
             key={marker.created_at}
             position={{ lat: marker.lat, lng: marker.lng }}
             icon={{
-              url: "/input.png", 
+              url: "/input.png",
               scaledSize: new window.google.maps.Size(30, 40),
               origin: new window.google.maps.Point(0, 0),
               anchor: new window.google.maps.Point(15, 20),

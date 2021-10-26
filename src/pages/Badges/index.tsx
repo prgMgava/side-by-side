@@ -54,7 +54,6 @@ const Badges = () => {
         <Heading
           as="h3"
           fontSize="26px"
-          //pl={{ lg: "20px" }}
           textAlign="center"
         >
           BADGES

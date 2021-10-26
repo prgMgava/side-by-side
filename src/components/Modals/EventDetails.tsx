@@ -59,7 +59,6 @@ export const EventDetails = ({ marker }: EventDetailsProps) => {
   const toast = useToast()
 
   const handleSubmit = () => {
-    //updates event participants and user events
     if (marker.participants !== undefined) {
       setIsLoading.on();
       const { email, image_url, name, id: idUser, my_events } = userData;
@@ -99,7 +98,7 @@ export const EventDetails = ({ marker }: EventDetailsProps) => {
         start_time: start_time,
         title: title,
         id: eventId,
-        particiants: participants,
+        participants: participants,
       };
 
       const eventData = [eventFilteredData, ...my_events];

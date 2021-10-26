@@ -20,7 +20,6 @@ import { RiContactsBookFill, RiTimeLine, RiRecycleFill } from "react-icons/ri";
 import { ButtonForms } from "../ButtonForms";
 import { useState } from "react";
 import { OptionsMaterialsType } from "../OptionsMaterialsTypes";
-import { WCDefaultData } from "../../utils/WCDefaultData";
 import { InputMarker, Marker } from "../../types/makerData";
 import { useAuth } from "../../providers/AuthContext";
 import { useMarkers } from "../../providers/MarkersContext";
@@ -62,8 +61,8 @@ export const FormWasteCollection = ({ inputMarker, onClose }: FormWCProps) => {
   } = useDisclosure();
 
   const eventSchema = yup.object().shape({
-    title: yup.string().required("Waste colection name required"),
-    address: yup.string().required("Waste colectiona address required"),
+    title: yup.string().required("Waste collection name required"),
+    address: yup.string().required("Waste collection address required"),
     contact: yup.string(),
     start_time: yup.string(),
     end_time: yup.string(),

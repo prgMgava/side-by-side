@@ -8,11 +8,6 @@ interface RadioValuesProps {
   materialsType: string[];
 }
 
-// interface OptionsProps extends RadioValuesProps {
-//   type: string;
-//   index: number;
-// }
-
 export const OptionsMaterialsType = ({
   setMaterialsType,
   materialsType,

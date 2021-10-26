@@ -1,4 +1,3 @@
-//necessita passar para o app provider
 import { useToast, Box, Text } from "@chakra-ui/react";
 import { AxiosResponse } from "axios";
 import {
@@ -72,20 +71,6 @@ const MarkersProvider = ({ children }: MarkersProviderProps) => {
       console.log(err);
     }
   }, []);
-
-  const createMarker = useCallback(
-    async (data: Marker, accessToken: string) => {
-      await api
-        .post("/markers", data, {
-          headers: { Authorization: `Bearer ${accessToken}` },
-        })
-        .then((response: AxiosResponse<Marker>) =>
-          setMarkers((oldMarkers) => [...oldMarkers, response.data])
-        )
-        .catch((err) => console.log(err));
-    },
-    []
-  );
 
   const updateMyEvents = useCallback(
     (id: () => string, accessToken: string, data, my_events: MyEvent[], user: User) => {

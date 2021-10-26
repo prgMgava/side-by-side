@@ -69,7 +69,7 @@ export const FormEvent = ({ inputMarker, onClose }: FormEventProps) => {
 
   const eventSchema = yup.object().shape({
     title: yup.string().required("Event name required"),
-    address: yup.string().required("Eventa address required"),
+    address: yup.string().required("Event address required"),
     contact: yup.string().required("Email or cellphone required"),
     start_time: yup.string().required("Event start time required"),
     end_time: yup.string().required("Event end time required"),
