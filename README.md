@@ -33,6 +33,6 @@ Principais libs e ferramentas utilizadas no projeto:
 
 Vale ressaltar que a decisão da equipe em também utilizar o TypeScript para uma tipagem mais "forte", assim suprimindo uma "carência" que o JavaScript sozinho não é muito eficaz, foi um grande desafio.
 
-Confira em [Syde By Side](https://sidebyside.vercel.app/)
+Confira em [Syde By Side](https://side-by-side-mgavadev.vercel.app/)
 
 Há um vídeo legal tbm no meu [Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6848619692995698689/), confere lá :)
